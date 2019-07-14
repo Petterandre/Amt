@@ -1,0 +1,114 @@
+/*
+	DESKTOP DESIGN
+*/
+
+@media (min-width:1280px) {
+
+body {
+	background-color:#4c4c4c ;
+	margin:0 !important;
+	padding:0 !important;
+	color:#FFF;
+}
+
+#wrapper {
+	padding-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+	background-color: #262626 ;
+	display:block;
+}
+
+#header {
+	background-color:#000066  ;
+	text-align:center;
+	height:60px;
+	margin:0;
+	display:block;
+}
+
+#header ul {
+	margin:0;
+	
+}
+
+#header li {
+	list-style: none;
+	display:inline-block;
+	margin:0;
+}
+#header a {
+	color:#FFF;
+	text-decoration: none;
+	margin:0;
+}
+
+
+#nav {
+	background-color: #000066  ;
+	height:40px;
+	padding-top:20px;
+	padding-left:40px;
+	padding-right:40px;
+
+}
+#nav:hover {
+	background-color:#191975 ;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+#footer {
+	background-color: #000066;
+	color:#FFF;
+	text-align:center;
+	height:40px;
+	padding-top:5px;
+}
+
+}
+
+/*
+	MOBILE DESIGN
+*/
+@media (max-width:768px) {
+body {
+	background-color:#CCC;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+#header {
+	background-color:#333;
+	text-align:center;
+	height:125px;
+	margin:0;
+}
+
+#header ul {
+	margin:0;
+	padding-top:50px;
+}
+
+#header li {
+	list-style: none;
+	display:inline-block;
+	padding-right:5%;
+}
+#header a {
+	color:#FFF;
+	text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}	
+}
